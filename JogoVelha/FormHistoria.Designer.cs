@@ -1,6 +1,6 @@
 ﻿namespace JogoVelha
 {
-    partial class FormJogo
+    partial class FormHistoria
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // FormJogo
+            // FormHistoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(212, 206);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "FormJogo";
-            this.Text = "Jogo da Velha";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "FormHistoria";
+            this.Text = "História";
             this.ResumeLayout(false);
 
         }
@@ -45,4 +46,3 @@
         #endregion
     }
 }
-
